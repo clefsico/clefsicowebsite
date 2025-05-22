@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>clefsico - official site</title>
+  <style>
+    /* Reset */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background: #121212;
+      color: white;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0; padding: 0;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    /* Logo */
+    .logo {
+      max-width: 160px;
+      margin: 20px auto;
+      filter: drop-shadow(0 0 4px gold);
+    }
+
+    /* Texto principal */
+    h1 {
+      font-size: 2.2rem;
+      text-transform: lowercase;
+      margin-bottom: 10px;
+      letter-spacing: 3px;
+      color: #fdd835;
+      text-shadow:
+        0 0 8px rgba(255, 193, 7, 0.8),
+        0 0 15px rgba(255, 152, 0, 0.5);
+    }
+
+    /* Sol container (adaptado a móvil) */
+    .sun-container {
+      max-width: 90vw;
+      margin: 20px auto 40px;
+    }
+
+    /* Álbum / collage */
+    .gallery {
+      max-width: 960px;
+      margin: 0 auto 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      padding: 0 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      filter: grayscale(30%) sepia(20%) contrast(1.1);
+      box-shadow: 0 0 12px rgba(255, 193, 7, 0.5);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.07);
+      filter: none;
+      box-shadow: 0 0 18px rgba(255, 213, 0, 0.9);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img src="oficiallogo.jpg" alt="clefsico logo" class="logo" />
+
+  <!-- Título -->
+  <h1>clefsico</h1>
+
+  <!-- Aquí va tu bloque del sol con el reproductor, por ejemplo -->
+  <div class="sun-container">
+    <!-- (Pega aquí el código que tienes del sol y el player) -->
+  </div>
+
+  <!-- Álbum vintage -->
+  <div class="gallery">
+    <img src="images/photo1.jpg" alt="foto 1" />
+    <img src="images/photo2.jpg" alt="foto 2" />
+    <img src="images/photo3.jpg" alt="foto 3" />
+    <img src="images/photo4.jpg" alt="foto 4" />
+    <img src="images/photo5.jpg" alt="foto 5" />
+    <img src="images/photo6.jpg" alt="foto 6" />
+  </div>
+
+</body>
+</html>
