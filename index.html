@@ -8,15 +8,55 @@
   <meta name="generator" content="GrapesJS Studio">
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="./style.css">
-  </head>
+  
+<style>
+@keyframes tearReveal {
+  0% { left: -100%; transform: skewX(-15deg); }
+  100% { left: 100%; transform: skewX(0deg); }
+}
+@keyframes contentFadeIn {
+  0% { opacity: 0; transform: translateX(-20px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+body {
+  margin: 0;
+  background: #fdfaf3;
+  font-family: 'Patrick Hand', cursive;
+}
+.page-wrapper {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+.tear-overlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at left center, #e3d9a8 0%, #fdf6c3 100%);
+  z-index: 10;
+  animation: tearReveal 1.5s ease forwards;
+}
+.page-content {
+  position: relative;
+  padding: 60px 30px;
+  z-index: 1;
+  opacity: 0;
+  animation: contentFadeIn 1.5s ease forwards;
+  animation-delay: 1.2s;
+}
+</style>
+
+</head>
   <body id="iovl"><div id="imog5" class="wrapper"><!-- Logo --><div data-type-role="flex-row" id="idgbjj" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ino9el" class="gjs-plg-flex-column"><div id="i6e6iy" class="gjs-custom-code"><div class="seagull-gif-container"><iframe frameborder="0" src="https://giphy.com/embed/VkTVLY0k5PRMPt5XCn" width="80" height="90" allowfullscreen="" class="seagull-gif">
-  </iframe></div></div></div></div><div id="iyd7p"><img src="assets/copy_of_official_clefsico_logo.png" alt="clefsico logo" id="ickhi"/></div><!-- Navegación principal --><nav><a href="#music" id="i1t4l"><div id="indph"><div>music</div></div></a><a href="#merch" id="if9n3">merch</a><a href="#tour" id="i3zuk">tour</a></nav><!-- Redes sociales --><div id="igqag" class="social-icons"><a href="https://open.spotify.com/artist/7v33lcxwmEzpzxIGo4sjvq" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify"/></a><a href="https://instagram.com/clefsico" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"/></a><a href="https://www.tiktok.com/@clefsico" target="_blank" id="iavhs"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338432_1280.png" alt="TikTok"/></a><a href="https://www.youtube.com/@clefsico" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube"/></a></div><!-- Sección Merch --><div id="i7nz2" class="gjs-custom-code"><section id="music" class="music-section"><!-- Crystal Clear --><div id="iasg2" class="song-cover"><a href="https://distrokid.com/hyperfollow/clefsico/crystal-clear" target="_blank"><img src="https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F5536558--A0926CD2-676E-4648-B48C4B308AD5EC66--0--4573539--CrystalClearCoverArtfordistrokid.png?fm=jpg&q=75&w=800&s=b1ad07b3daad5f3c8dd07ed77cf5b90a" alt="Crystal Clear Cover" id="iu2or" class="cover-float"/></a></div><!-- Freer --><div class="song-cover"><a href="https://distrokid.com/hyperfollow/clefsico/freer" target="_blank"><img src="https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F5536558--D26ED725-1DF0-4658-B7B5BE90515FC423--0--7561062--CLEFSICOFREERCOVERFINAL.png?fm=jpg&q=75&w=800&s=75b1515bfabb9781dde296abab87e015" alt="Freer Cover" class="cover-float"/></a></div></section></div><div data-type-role="flex-row" id="ifpmby" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="imtwb5" class="gjs-plg-flex-column"><div id="iapzw1" class="gjs-custom-code"><div id="i8ycms" class="tv-video-wrapper"><!-- Imagen de la televisión como fondo principal --><img src="https://lh6.googleusercontent.com/7AFJugDN6wnWB0ye891sMDOkgExh-Iwymz9UxYA7jvt6MgSwCUginilBtHpVE-xcQAP7MquGwSJ_3dAmgXFSW7I=w1280" alt="TV Frame" class="tv-frame"/><!-- Vídeo posicionado dentro del hueco de la pantalla --><iframe allowfullscreen="" src="https://www.youtube.com/embed/554sqJ3lUw4?" frameborder="0" id="iqei65" class="tv-video">
-  </iframe></div></div></div></div><div data-type-role="flex-row" id="igoty" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i9bag" class="gjs-plg-flex-column"><div id="ip82e" class="gjs-custom-code"><div class="polaroid-gallery"><div class="polaroid"><img src="assets/dscf0011.jpg" alt="Crystal Clear" id="i26ne3"/></div><div class="polaroid"><img src="assets/clefsico_square2.jpg" alt="Freer" id="idp1dc"/></div></div></div></div></div><div data-type-role="flex-row" id="iz5ik" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ix98e" class="gjs-plg-flex-column"><div id="itnsg" class="gjs-custom-code"><div class="glitch-section"></div><div id="iz3x9" class="gjs-custom-code"><div class="glitch-merch-title">clefsico merch coming soon 
-</div><div class="fake-merch-gallery"><div class="fake-item"><img src="https://www.belsport.be/15604-medium_default_2x/e150-t-shirt-red.jpg" alt="product"/><span class="fake-price">€ ??,??</span></div><div class="fake-item"><img src="https://www.stampalo.es/1944411-thickbox_default/gildan-sudadera-capucha-nino-18500b-heavy-blend.jpg" alt="product"/><span class="fake-price">€ --,--</span></div><div class="fake-item"><img src="https://prd-static.sf-cdn.com/resources/images/store/2022/global/470x470/UK/Posters/design-your-own-poster-470x470-uk-20220802.jpg" alt="product"/><span class="fake-price">€ **,**</span></div></div></div></div></div></div><div class="merch-gallery"></div><!-- Botón back to top --><div data-type-role="flex-row" id="ixo7my" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iebbq5" class="gjs-plg-flex-column"><div id="idw14u" class="gjs-custom-code"><div class="newsletter-banner">
-  wanna know when we’re playing next? 🎤<br/>
-  join our newsletter below ✉️
-</div><!-- Contenedor del iframe de Brevo --><div class="newsletter-wrapper" id="ihwtlg"><iframe frameborder="0" width="540" height="305" src="https://sibforms.com/serve/MUIFAMLAxCBHjuLc-1zpJOcgIPqJJ7d87emMXyurlVixHkeVNTjs3cifGzpEQB9dc1Qs6DlaDhzYdO2yy9oKoWuNa5GrcJcmHjkGQg1KuNUXfENcnj-APOqODadcbZtateY9LrhPheG-HJS4gfLZI97In0Tcu45-sZ3vpvAdiksDyuPHljqI3cn15njiJLf2oO_nxgeizVlrHK7P" scrolling="auto" allowfullscreen="" id="inxdtj"></iframe></div></div></div></div><!-- Footer --><div id="isw15v" class="gjs-custom-code"><!-- Contenedor centrado + botón --><div class="center-button"><a href="#top" class="retro-button">back to top</a></div></div><footer class="footer"><p>© clefsico<br/>
+  </iframe></div></div></div></div><div id="iyd7p"><img src="assets/copy_of_official_clefsico_logo.png" alt="clefsico logo" id="ickhi"/></div><!-- Navegación principal --><nav><a href="#music" id="i1t4l"><div id="indph"><div>music</div></div></a><a href="#merch" id="if9n3"><div id="i56ac3" spellcheck="false"><div>merch</div></div></a><a href="#tour" id="i3zuk"><div id="i8spph" spellcheck="false"><div>tour</div></div></a></nav><!-- Redes sociales --><div id="igqag" class="social-icons"><a href="https://open.spotify.com/artist/7v33lcxwmEzpzxIGo4sjvq" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify"/></a><a href="https://instagram.com/clefsico" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"/></a><a href="https://www.tiktok.com/@clefsico" target="_blank" id="iavhs"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338432_1280.png" alt="TikTok"/></a><a href="https://www.youtube.com/@clefsico" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube"/></a></div><!-- Sección Merch --><div id="i7nz2" class="gjs-custom-code"><section id="music" class="music-section"><!-- Crystal Clear --><div id="iasg2" class="song-cover"><a href="https://distrokid.com/hyperfollow/clefsico/crystal-clear" target="_blank"><img src="https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F5536558--A0926CD2-676E-4648-B48C4B308AD5EC66--0--4573539--CrystalClearCoverArtfordistrokid.png?fm=jpg&q=75&w=800&s=b1ad07b3daad5f3c8dd07ed77cf5b90a" alt="Crystal Clear Cover" id="iu2or" class="cover-float"/></a></div><!-- Freer --><div class="song-cover" id="ima9xf"><a href="https://distrokid.com/hyperfollow/clefsico/freer" target="_blank" id="i6tij2"><img src="https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F5536558--D26ED725-1DF0-4658-B7B5BE90515FC423--0--7561062--CLEFSICOFREERCOVERFINAL.png?fm=jpg&q=75&w=800&s=75b1515bfabb9781dde296abab87e015" alt="Freer Cover" class="cover-float"/></a></div></section></div><div class="gjs-custom-code" id="iln5w9"><div class="tv-wrapper" id="i3hx12"><!-- Imagen de la televisión --><img src="https://lh6.googleusercontent.com/7AFJugDN6wnWB0ye891sMDOkgExh-Iwymz9UxYA7jvt6MgSwCUginilBtHpVE-xcQAP7MquGwSJ_3dAmgXFSW7I=w1280" alt="TV Frame" class="tv-frame"/><!-- Vídeo insertado dentro de la TV --><div class="tv-video-container" id="i35ztv"><iframe allowfullscreen="" src="https://www.youtube.com/embed/554sqJ3lUw4?" frameborder="0" id="ix3loh">
+    </iframe></div></div></div><div class="gjs-custom-code" id="ikxt2i"><div class="sticky-note"><p id="ich6vi">back in dublin 💿 where it all began we filmed crystal clear here 🎥  memories + melodies = clefsico 🤍</p></div></div><div data-type-role="flex-row" id="igoty" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="i9bag" class="gjs-plg-flex-column"><div id="ip82e" class="gjs-custom-code"><div class="polaroid-gallery" id="iiaokg"><div class="polaroid"><img src="assets/dscf0011.jpg" alt="Crystal Clear" id="i26ne3"/></div><div class="polaroid" id="ics6c5"><img src="assets/clefsico_square2.jpg" alt="Freer" id="idp1dc"/></div></div></div></div></div><div data-type-role="flex-row" id="iz5ik" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="ix98e" class="gjs-plg-flex-column"><div id="itnsg" class="gjs-custom-code"><div class="glitch-section"></div><div id="iz3x9" class="gjs-custom-code"><div class="glitch-merch-title" id="i5pqvj"><div>clefsico merch coming soon</div></div><div class="fake-merch-gallery"><div class="fake-item"><img src="https://www.belsport.be/15604-medium_default_2x/e150-t-shirt-red.jpg" alt="product"/><span class="fake-price">€ ??,??</span></div><div class="fake-item"><img src="https://www.stampalo.es/1944411-thickbox_default/gildan-sudadera-capucha-nino-18500b-heavy-blend.jpg" alt="product"/><span class="fake-price">€ --,--</span></div><div class="fake-item"><img src="https://prd-static.sf-cdn.com/resources/images/store/2022/global/470x470/UK/Posters/design-your-own-poster-470x470-uk-20220802.jpg" alt="product"/><span class="fake-price">€ **,**</span></div></div></div></div></div></div><div class="merch-gallery"></div><!-- Botón back to top --><div data-type-role="flex-row" id="ixo7my" class="gjs-plg-flex-row"><div data-type-role="flex-column" id="iebbq5" class="gjs-plg-flex-column"><div id="idw14u" class="gjs-custom-code"><div class="newsletter-banner" id="iieoql"><div>wanna know when we’re playing next? 🎤<br/>join our newsletter below ✉️</div></div><!-- Contenedor del iframe de Brevo --><div id="ihwtlg" class="newsletter-wrapper"><iframe frameborder="0" width="540" height="305" src="https://sibforms.com/serve/MUIFAMLAxCBHjuLc-1zpJOcgIPqJJ7d87emMXyurlVixHkeVNTjs3cifGzpEQB9dc1Qs6DlaDhzYdO2yy9oKoWuNa5GrcJcmHjkGQg1KuNUXfENcnj-APOqODadcbZtateY9LrhPheG-HJS4gfLZI97In0Tcu45-sZ3vpvAdiksDyuPHljqI3cn15njiJLf2oO_nxgeizVlrHK7P" scrolling="auto" allowfullscreen="" id="inxdtj"></iframe></div></div></div></div><!-- Footer --><div id="isw15v" class="gjs-custom-code"><!-- Contenedor centrado + botón --><div class="center-button"><a href="#top" class="retro-button">back to top</a></div></div><footer class="footer"><p>© clefsico<br/>
       Wanna collab or join our journey? ✉️ <a href="mailto:clefsico@gmail.com">clefsico@gmail.com</a><br/>
       We’re looking for a manager, a label, a budget... okay maybe a miracle 🌀<br/>
-      But hey — we've got the talent 😌🎶</p></footer></div></body>
+      But hey — we've got the talent 😌🎶</p></footer></div>
+  </div>
+</div>
+</body>
+
 </html>
